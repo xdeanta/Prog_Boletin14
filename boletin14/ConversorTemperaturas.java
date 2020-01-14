@@ -11,7 +11,7 @@ package boletin14;
  * @author xavier
  */
 public class ConversorTemperaturas {
-    public static final float limite=80;
+    public final float limite=80;
     
     public ConversorTemperaturas(){
         
