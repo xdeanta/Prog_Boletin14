@@ -26,8 +26,7 @@ public class Boletin14 {
         System.out.println("Introduce temperatura:");
         temp=sc.nextFloat();
         try{
-            F=c.CtoF(temp);
-            System.out.println("CtoF:" + F);
+            System.out.println("Fahrenheit: " + c.CtoF(temp));
             c.CtoRe(temp);
         }catch(TemperaturaErradaException e){
            System.out.println(" " + e.toString());
